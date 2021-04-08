@@ -14,6 +14,7 @@
     "react-native": "~0.63.4",
     "react-native-apipay": "file:../../deligoo-app-apipay",
     "react-native-gesture-handler": "~1.8.0",
+    "react-native-help-crunch": "file:../../deligoo-app-helpcrunch",
     "react-native-reanimated": "~1.13.0",
     "react-native-screens": "~2.15.0",
     "react-native-unimodules": "~0.12.0",
