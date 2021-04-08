@@ -13,6 +13,8 @@
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
     "react-native-apipay": "file:../../deligoo-app-apipay",
+    "react-native-background-fetch": "4.0.1",
+    "react-native-background-geolocation": "^4.0.2",
     "react-native-gesture-handler": "~1.8.0",
     "react-native-help-crunch": "file:../../deligoo-app-helpcrunch",
     "react-native-reanimated": "~1.13.0",

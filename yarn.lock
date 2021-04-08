@@ -3847,6 +3847,11 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-plist@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/fast-plist/-/fast-plist-0.1.2.tgz#a45aff345196006d406ca6cdcd05f69051ef35b8"
+  integrity sha1-pFr/NFGWAG1AbKbNzQX2kFHvNbg=
+
 fb-watchman@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-2.0.1.tgz#fc84fb39d2709cf3ff6d743706157bb5708a8a85"
@@ -6725,6 +6730,27 @@ react-is@^17.0.1:
 
 "react-native-apipay@file:../../deligoo-app-apipay":
   version "0.1.0"
+
+react-native-background-fetch@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-background-fetch/-/react-native-background-fetch-4.0.1.tgz#dbb59c8f31ece8af6eff6d552c4ce00f6c1653dd"
+  integrity sha512-dUhAU7qfSDPdTSg7E6CZ6RhdhxCt9dZAdtoKTvOnpMNxubW+DrPca1oisCML/GatNwVWCJgvLMxuA9I1oonmrQ==
+  dependencies:
+    fast-plist "^0.1.2"
+    plist "^3.0.1"
+    xcode "^2.0.0"
+
+react-native-background-fetch@~4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-background-fetch/-/react-native-background-fetch-4.0.2.tgz#97842722b67c584fd860f30eb1fc70e481b207c0"
+  integrity sha512-R5T4fxz3k7Lldv3urUDuhOVwueMNCGQ03pCu44oe/zcOmKX3iGzvwup9W2J2C763MKnuSztF0Y2F4fMYPIR0fw==
+
+react-native-background-geolocation@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-background-geolocation/-/react-native-background-geolocation-4.0.2.tgz#a1b6dd1565cc3f45ff5b2f6021954cd28dc0ca2b"
+  integrity sha512-7fW2m9P9hNd1AzU8+u6orK5XZjHd7eJidFCbHEvAO0xYivfg2WAmLm4U8Mlii+R+RnpXHOF8B+gVfa2XN3bBdw==
+  dependencies:
+    react-native-background-fetch "~4.0.1"
 
 react-native-gesture-handler@~1.8.0:
   version "1.8.0"
